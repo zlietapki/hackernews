@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "~=6.0"
+pytest-asyncio = "~=0.14"
+
+[packages]
+aiohttp = "~=3.6"
+beautifulsoup4 = "~=4.9"
+
+[requires]
+python_version = "3.8"
