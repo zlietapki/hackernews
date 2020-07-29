@@ -6,7 +6,7 @@ As container
 
 ```bash
 docker build -t hackernews .
-docker run --name hackernews_container -d -p8080:8080 hackernews
+docker run -d -p8080:8080 hackernews
 # visit http://localhost:8080
 ```
 
